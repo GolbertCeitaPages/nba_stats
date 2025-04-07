@@ -567,3 +567,9 @@ final_season INT(4),
 made_playoffs INT(3)
 );
 */
+
+CREATE TABLE IF NOT EXISTS player_salaries (
+    player VARCHAR(255),
+    season INT,
+    salary INT
+)
